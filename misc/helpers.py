@@ -59,7 +59,7 @@ class StdIO:
             return all_data
 
 
-class Misc:
+class StdIP:
     @staticmethod
     def imresize(img, orig_res_mm=1., des_res_mm=0.5, interpolation='cubic'):
         frac = orig_res_mm/des_res_mm

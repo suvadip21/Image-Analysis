@@ -44,6 +44,7 @@ def fourier_transform(f, input_centered=False, output_centered=True):
         F = fftshift(F)
     return F
 
+
 def inverse_fourier_transform(F, input_centered=True, output_centered=False):
     """
     Performs inverse Fourier transform:
